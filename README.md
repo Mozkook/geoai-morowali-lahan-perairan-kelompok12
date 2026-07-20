@@ -49,8 +49,11 @@ Proyek ini mendeteksi perubahan dua objek permukaan bumi di Kecamatan Bahodopi, 
 2. Pastikan file dari `data/` sudah tersedia di path yang sesuai (`data/feature_stack_2024.tif`, dll.)
 3. Jalankan seluruh cell secara berurutan dari atas ke bawah
 
+## GitHub WebGIS
+🔗 https://github.com/daffpa/WebGis_Rencana_Proyek_GeoAI_Morowali.git
+
 ## WebGIS
-🔗 [Link WebGIS] — *(menunggu deployment Vercel)*
+🔗 https://web-gis-rencana-proyek-geo-ai-morow.vercel.app/
 
 ## Laporan
 📄 Laporan akhir tersedia di folder `report/`
