@@ -1,9 +1,12 @@
 # GeoAI Morowali — Deteksi Perubahan Lahan Tambang dan Perairan Pesisir (2024–2025)
 Proyek deteksi ekspansi tambang nikel dan dampaknya terhadap perairan pesisir di Kecamatan Bahodopi, Morowali (2024–2025), didokumentasikan lengkap di repositori ini — mencakup kode pemrosesan Sentinel-2, model klasifikasi Random Forest, data ground truth, hasil evaluasi, hingga tautan WebGIS interaktif untuk eksplorasi hasil secara visual.
 
-**Kelompok 12** 
+**Kelompok 12**
+
 **Mata Kuliah:** Kapita Selekta & Maha Data 
+
 **Dosen:** Zakiul Fahmi Jailani, S.Kom, MSc
+
 **Program Studi:** Sistem Informasi, Universitas Bakrie
 
 ## Deskripsi Proyek
