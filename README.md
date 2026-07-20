@@ -1,0 +1,1 @@
+# geoai-morowali-lahan-perairan-kelompok12
