@@ -57,5 +57,7 @@ Proyek ini mendeteksi perubahan dua objek permukaan bumi di Kecamatan Bahodopi, 
 
 **WebGIS:** 🔗 https://web-gis-rencana-proyek-geo-ai-morow.vercel.app/
 
+**Drive Untuk File Besar:** 🔗 https://drive.google.com/drive/folders/1UBYuutqmkTz8vIl9y4UmflA4tesoxpOs?usp=sharing
+
 ## Laporan
 📄 Laporan akhir tersedia di folder `report/`
