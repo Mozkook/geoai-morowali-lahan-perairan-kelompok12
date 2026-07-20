@@ -3,8 +3,11 @@
 Proyek deteksi ekspansi tambang nikel dan dampaknya terhadap perairan pesisir di Kecamatan Bahodopi, Morowali (2024–2025), didokumentasikan lengkap di repositori ini — mencakup kode pemrosesan Sentinel-2, model klasifikasi Random Forest, data ground truth, hasil evaluasi, hingga tautan WebGIS interaktif untuk eksplorasi hasil secara visual.
 
 **Kelompok 12**
+
 **Mata Kuliah:** Kapita Selekta & Maha Data
+
 **Dosen:** Zakiul Fahmi Jailani, S.Kom, MSc
+
 **Program Studi:** Sistem Informasi, Universitas Bakrie
 
 ## Ringkasan Proyek
@@ -62,9 +65,13 @@ Kedua objek menunjukkan arah perubahan berlawanan: Lahan Terbuka menyusut sement
 3. Jalankan seluruh cell secara berurutan dari atas ke bawah
 
 ## Tautan
+
 **Repository:** 🔗 https://github.com/Mozkook/geoai-morowali-lahan-perairan-kelompok12.git
+
 **GitHub WebGIS:** 🔗 https://github.com/daffpa/WebGis_Rencana_Proyek_GeoAI_Morowali.git
+
 **WebGIS:** 🔗 https://web-gis-rencana-proyek-geo-ai-morow.vercel.app/
+
 **Drive Untuk File Besar:** 🔗 https://drive.google.com/drive/folders/1UBYuutqmkTz8vIl9y4UmflA4tesoxpOs?usp=sharing
 
 ## Laporan
