@@ -29,7 +29,8 @@ Proyek ini mendeteksi perubahan dua objek permukaan bumi di Kecamatan Bahodopi, 
 
 ## Struktur Folder
 - `data/` → AOI, feature stack, ground truth kedua objek
-- `notebooks/` → kode preprocessing & modeling (.ipynb)
+- `gee/` → kode Google Earth Engine (akuisisi citra, cloud masking, komposit Sentinel-2)
+- `notebooks/` → kode preprocessing & modeling Python (.ipynb)
 - `results/`
   - `lahan_terbuka/` → model, klasifikasi, evaluasi, GeoJSON
   - `perairan/` → model, klasifikasi, evaluasi, GeoJSON
@@ -59,7 +60,14 @@ Model Lahan Terbuka menunjukkan performa sangat tinggi dengan risiko *false posi
 
 Kedua objek menunjukkan arah perubahan berlawanan: Lahan Terbuka menyusut sementara Perairan meluas pada periode yang sama. Analisis klaster spasial menemukan sebagian titik *gain* Perairan berdekatan (<1 km) dengan titik *loss* Lahan Terbuka, mengindikasikan sedimentasi lokal dari aktivitas pembukaan lahan tambang ke badan air terdekat.
 
-## Cara Menjalankan Kode
+## Cara Mengakses Kode Google Earth Engine
+Kode preprocessing citra Sentinel-2 (akuisisi, cloud masking, median composite) dijalankan di GEE Code Editor, bukan di Python/Colab. Untuk menjalankannya:
+1. Buka [code.earthengine.google.com](https://code.earthengine.google.com) dan login dengan akun Google yang terdaftar di GEE
+2. Buka file `.js` dari folder `gee/` di repo ini (misalnya `kode_gee_geoai_morowali.js`), lalu copy seluruh isinya
+3. Paste ke Code Editor GEE, ganti bagian path/asset (AOI, ID project) sesuai akun GEE masing-masing
+4. Klik **Run**, lalu jalankan task ekspor yang muncul di tab **Tasks** untuk mengunduh hasil (feature stack, komposit citra) ke Google Drive/Assets
+
+## Cara Menjalankan Kode Python
 1. Buka notebook di `notebooks/` menggunakan Google Colab atau Jupyter
 2. Pastikan file dari `data/` sudah tersedia di path yang sesuai (`data/feature_stack_2024.tif`, dll.)
 3. Jalankan seluruh cell secara berurutan dari atas ke bawah
